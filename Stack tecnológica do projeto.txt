@@ -1,0 +1,33 @@
+Stack tecnológica do projeto
+Front-end
+• Qual tecnologia/framework será usado? (HTML/CSS puro[se necessario]  React+ Bootstrap)
+• Por que essa escolha? (devido a motivos de ordem de estudo, conveniência e ferramentas já vistas)
+
+Back-end
+• Qual linguagem e framework? ( (javacript)Node + Express)
+• Por que essa escolha? (devido a motivos de ordem de estudo e conveniência)
+
+Banco de dados
+• Qual SGBD será usado? (MySQL)
+• É relacional ou não-relacional? Por que faz sentido para o projeto? (relacional; imoiliaria tem que ser relacional, somente armazenamento de dados, não há necessidade de comparar dados )
+
+Controle de versão
+• O projeto está no Git? Em qual plataforma? (GitHub)
+• Como o grupo está organizando as contribuições?
+Marco  (front/api)
+Felipe (front/api)
+Otávio (back e banco de dados)
+Diogo  (back e banco de dados)
+todos (deploy)
+
+Ambiente de desenvolvimento
+• Qual editor/IDE o grupo está usando? (visual studio)
+• O ambiente está documentado? (README, requisitos, versões)  possivelmente o Docker
+
+Deploy (opcional/bônus)
+• O projeto será hospedado em algum lugar? (Render)
+
+Visão geral da integração
+• Como as peças se conectam? (ex: "o front em React consome uma API
+REST feita em Node que acessa o MySQL")
+• Desenhe ou descreva o fluxo de comunicação entre as camadas
