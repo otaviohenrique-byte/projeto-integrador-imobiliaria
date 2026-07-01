@@ -1,0 +1,46 @@
+INSERT INTO usuarios (nome, email, senha, telefone, adm, tipo_interesse) VALUES
+('Carlos Silva', 'carlos.silva@email.com', 'senha_hash_1', '(11) 98888-1111', 1, 'Informação'),
+('Ana Souza', 'ana.souza@email.com', 'senha_hash_2', '(11) 98888-2222', 0, 'Comprar'),
+('Marcos Oliveira', 'marcos.o@email.com', 'senha_hash_3', '(21) 97777-3333', 0, 'Alugar'),
+('Julia Mendes', 'julia.mendes@email.com', 'senha_hash_4', '(31) 96666-4444', 0, 'Comprar'),
+('Ricardo Santos', 'ricardo.s@email.com', 'senha_hash_5', '(41) 95555-5555', 1, 'Informação'),
+('Fernanda Lima', 'fernanda.lima@email.com', 'senha_hash_6', '(11) 94444-6666', 0, 'Alugar'),
+('Lucas Costa', 'lucas.costa@email.com', 'senha_hash_7', '(81) 93333-7777', 0, 'Comprar'),
+('Beatriz Rocha', 'beatriz.r@email.com', 'senha_hash_8', '(19) 92222-8888', 0, 'Alugar'),
+('André Almeida', 'andre.almeida@email.com', 'senha_hash_9', '(51) 91111-9999', 0, 'Informação'),
+('Camila Pereira', 'camila.p@email.com', 'senha_hash_10', '(11) 90000-0000', 0, 'Comprar'),
+('Roberto Nunes', 'roberto.nunes@email.com', 'senha_hash_11', '(21) 98765-4321', 0, 'Alugar'),
+('Patrícia Gomes', 'patricia.g@email.com', 'senha_hash_12', '(31) 97654-3210', 0, 'Comprar'),
+('Gabriel Martins', 'gabriel.m', 'senha_hash_13', '(47) 96543-2109', 1, 'Informação'),
+('Larissa Barbosa', 'larissa.b@email.com', 'senha_hash_14', '(61) 95432-1098', 0, 'Alugar'),
+('Thiago Melo', 'thiago.melo@email.com', 'senha_hash_15', '(85) 94321-0987', 0, 'Comprar'),
+('Sofia Castro', 'sofia.castro@email.com', 'senha_hash_16', '(71) 93210-9876', 0, 'Alugar'),
+('Bruno Carvalho', 'bruno.c@email.com', 'senha_hash_17', '(92) 92109-8765', 0, 'Comprar'),
+('Letícia Rodrigues', 'leticia.r@email.com', 'senha_hash_18', '(11) 91098-7654', 0, 'Informação'),
+('Diego Teixeira', 'diego.t@email.com', 'senha_hash_19', '(27) 90987-6543', 0, 'Alugar'),
+('Vanessa Dias', 'vanessa.dias@email.com', 'senha_hash_20', '(48) 99876-5432', 0, 'Comprar');
+
+
+
+
+INSERT INTO imoveis (usuario_id, referencia, tipo_negocio, tipo_imovel, titulo, descricao, preco, endereco, bairro, cidade, estado, link_mapa, quartos, banheiros, vagas, area_m2, destaque, ativo) VALUES
+(1, 'REF-001', 'Venda', 'Casa', 'Casa Duplex Moderna', 'Linda casa com finos acabamentos e amplo quintal.', 750000.00, 'Rua das Flores, 123', 'Centro', 'São Paulo', 'SP', 'http://maps.google.com/0', 3, 2, 2, 150.00, 1, 1),
+(2, 'REF-002', 'Aluguel', 'Apartamento', 'Apto Vista Mar', 'Apartamento mobiliado e reformado de frente para o mar.', 3500.00, 'Av. Atlântica, 456', 'Copacabana', 'Rio de Janeiro', 'RJ', 'http://maps.google.com/1', 2, 2, 1, 85.50, 1, 1),
+(3, 'REF-003', 'Venda', 'Terreno', 'Terreno em Condomínio Fechado', 'Terreno plano pronto para construir, excelente localização.', 220000.00, 'Al. dos Pinheiros, s/n', 'Alphaville', 'Barueri', 'SP', 'http://maps.google.com/2', 0, 0, 0, 360.00, 0, 1),
+(4, 'REF-004', 'Aluguel', 'Casa', 'Casa Comercial de Esquina', 'Excelente ponto para clínicas ou escritórios.', 8000.00, 'Av. Afonso Pena, 789', 'Funcionários', 'Belo Horizonte', 'MG', 'http://maps.google.com/3', 4, 3, 4, 250.00, 0, 1),
+(5, 'REF-005', 'Venda', 'Apartamento', 'Studio aconchegante no Batel', 'Perfeito para investidores ou estudantes, próximo a tudo.', 290000.00, 'Rua Bispo Dom José, 101', 'Batel', 'Curitiba', 'PR', 'http://maps.google.com/4', 1, 1, 1, 38.00, 1, 1),
+(6, 'REF-006', 'Aluguel', 'Apartamento', 'Cobertura Penthouse', 'Cobertura com piscina privativa e churrasqueira.', 12000.00, 'Rua Augusta, 2020', 'Consolação', 'São Paulo', 'SP', 'http://maps.google.com/5', 4, 5, 3, 310.00, 1, 1),
+(7, 'REF-007', 'Venda', 'Casa', 'Casa de Campo em Gravatá', 'Clima de montanha, casa mobiliada com lareira.', 450000.00, 'Estrada do Cruzeiro, Km 5', 'Zona Rural', 'Gravatá', 'PE', 'http://maps.google.com/6', 3, 2, 3, 180.00, 0, 1),
+(8, 'REF-008', 'Aluguel', 'Casa', 'Sobrado em Condomínio', 'Sobrado seguro com área de lazer completa no condomínio.', 4200.00, 'Rua das Palmeiras, 55', 'Guanabara', 'Campinas', 'SP', 'http://maps.google.com/7', 3, 3, 2, 160.00, 0, 1),
+(9, 'REF-009', 'Venda', 'Apartamento', 'Apartamento 3 suítes no Moinhos', 'Alto padrão, um por andar, infraestrutura completa.', 1850000.00, 'Rua Padre Chagas, 333', 'Moinhos de Vento', 'Porto Alegre', 'RS', 'http://maps.google.com/8', 3, 4, 3, 210.00, 1, 1),
+(10, 'REF-010', 'Venda', 'Terreno', 'Lote Industrial Amplo', 'Ideal para galpões logísticos, fácil acesso à rodovia.', 950000.00, 'Rodovia BR-116, Km 12', 'Distrito Industrial', 'Fortaleza', 'CE', 'http://maps.google.com/9', 0, 0, 0, 1200.00, 0, 1),
+(11, 'REF-011', 'Aluguel', 'Apartamento', 'Apartamento compacto e funcional', 'Próximo ao metrô, condomínio com lavanderia coletiva.', 1800.00, 'Rua Voluntários da Pátria, 400', 'Santana', 'São Paulo', 'SP', 'http://maps.google.com/10', 1, 1, 0, 45.00, 0, 1),
+(12, 'REF-012', 'Venda', 'Casa', 'Casa Térrea no Setor Bueno', 'Quintal grande com árvores frutíferas e piscina.', 680000.00, 'Rua T-30, 88', 'Setor Bueno', 'Goiânia', 'GO', 'http://maps.google.com/11', 3, 2, 2, 200.00, 0, 1),
+(13, 'REF-013', 'Aluguel', 'Apartamento', 'Apartamento Próximo à UFSC', 'Excelente para estudantes, sacada com churrasqueira.', 2500.00, 'Rua Delfino Conti, 12', 'Trindade', 'Florianópolis', 'SC', 'http://maps.google.com/12', 2, 1, 1, 70.00, 0, 1),
+(14, 'REF-014', 'Venda', 'Apartamento', 'Lançamento na Planta - Lago Sul', 'Entrega em 24 meses. Condições especiais de pagamento.', 520000.00, 'SHIS QI 5, Bloco C', 'Lago Sul', 'Brasília', 'DF', 'http://maps.google.com/13', 2, 2, 1, 65.00, 1, 1),
+(15, 'REF-015', 'Aluguel', 'Casa', 'Mansão na Praia do Futuro', 'Pé na areia, 5 suítes, deck com churrasqueira e piscina.', 15000.00, 'Av. Zezé Diogo, 2500', 'Praia do Futuro', 'Fortaleza', 'CE', 'http://maps.google.com/14', 5, 6, 5, 450.00, 1, 1),
+(16, 'REF-016', 'Venda', 'Casa', 'Casa Rustica na Pituba', 'Arquitetura diferenciada com bastante madeira e vidro.', 820000.00, 'Rua Piauí, 14', 'Pituba', 'Salvador', 'BA', 'http://maps.google.com/15', 4, 3, 2, 220.00, 0, 1),
+(17, 'REF-017', 'Aluguel', 'Apartamento', 'Flat mobiliado no Adrianópolis', 'Serviço de camareira incluso no condomínio.', 3800.00, 'Av. Mario Ypiranga, 555', 'Adrianópolis', 'Manaus', 'AM', 'http://maps.google.com/16', 1, 1, 1, 50.00, 0, 1),
+(18, 'REF-018', 'Venda', 'Terreno', 'Terreno Comercial na Praia do Canto', 'Esquina de grande fluxo, excelente visibilidade.', 1500000.00, 'Av. Rio Branco, 900', 'Praia do Canto', 'Vitória', 'ES', 'http://maps.google.com/17', 0, 0, 0, 500.00, 1, 1),
+(19, 'REF-019', 'Aluguel', 'Apartamento', 'Apto 2 quartos com suíte', 'Cozinha americana planejada, andar alto.', 2200.00, 'Rua das Garças, 123', 'Centro', 'Campo Grande', 'MS', 'http://maps.google.com/18', 2, 2, 1, 75.00, 0, 1),
+(20, 'REF-020', 'Venda', 'Casa', 'Casa de alto padrão no Cambuí', 'Acabamento em mármore, automação residencial instalada.', 2400000.00, 'Rua Coronel Quirino, 1500', 'Cambuí', 'Campinas', 'SP', 'http://maps.google.com/19', 4, 5, 4, 380.00, 1, 1);
